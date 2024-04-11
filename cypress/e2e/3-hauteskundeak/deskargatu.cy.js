@@ -11,7 +11,6 @@ describe('Deskargatu Hauteskundeen emaitzen XML fitxategia', () => {
     cy.get('#password').type(Cypress.env('PASSWORD'));
     cy.get('#cal-login-button').click();
     cy.readFile('cypress/downloads/Resultados.xml').then((text) => {
-      console.log(text);
       cy.writeFile(Cypress.env('RESULT_FILE_PATH'), text);
     });
   });
