@@ -4,6 +4,7 @@
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "e2e:chrome": "cypress run --browser chrome"
+    "e2e:chrome": "cypress run --browser chrome",
+    "e2e:electron": "cypress run --browser electron"
   }
 }
