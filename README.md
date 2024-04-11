@@ -30,3 +30,4 @@ edo chrome ez baduzu:
 $ npm run e2e:electron
 ```
 
+Fitxategia `CYPRESS_RESULT_FILE_PATH` aldagaian definitu duzun tokian izango duzu.
