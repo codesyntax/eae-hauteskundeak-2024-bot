@@ -19,3 +19,9 @@ Exekutatu testa:
 ```sh
 $ npm run e2e:chrome
 ```
+edo chrome ez baduzu:
+
+```sh
+$ npm run e2e:electron
+```
+
