@@ -1,6 +1,11 @@
 # 2024ko hauteskunde bota
 
-Ingurunea instalatu
+Zerbitzaria prestatu. Horretarako jarraitu argibide hauek: [https://on.cypress.io/required-dependencies](https://on.cypress.io/required-dependencies)
+
+Node instalatu zure zerbitzarian, guk [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) erabiltzea gomendatzen dugu.
+
+
+Pakete hau klonatu eta ingurunea instalatu. 
 
 ```sh
 $ npm install
