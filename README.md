@@ -2,7 +2,7 @@
 
 2024ko EAEko hauteskundeen emaitzen datuak era automatikoan deskargatzeko robota duzu hau.
 
-Emaitzak XML formatuan emango ditu Eusko Jaurlaritzak hedabideentzat prestatutako intranet baten, baina fitxategi hori deskargatzeko intranetean login egin behar da.
+Emaitzak, kontatu eta jaso ahala emango ditu Eusko Jaurlaritzak, eta horretarako fitxategi bat eguneratuko du 3 minutuan behin. Fitxategi hori XML formatuan emango du Jaurlaritzak hedabideentzat prestatutako intranet baten, baina fitxategi hori deskargatzeko intranetean login egin behar da.
 
 Logina egiteko, baina, ezin da [HTTP Basic autentifikazioa](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) erabili. Ezta [JWT tokenak](https://jwt.io) edo beste edozein autentifikazio modu estandar ere: intranetean login egin behar da eta orduan deskargatu daiteke fitxategia. Nabigatzailean jartzen diren Cookie batzuen bidez kontrolatzen da logina eginda dagoen ala ez.
 
