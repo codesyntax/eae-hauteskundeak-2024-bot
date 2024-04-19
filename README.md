@@ -4,8 +4,7 @@ Zerbitzaria prestatu. Horretarako jarraitu argibide hauek: [https://on.cypress.i
 
 Node instalatu zure zerbitzarian, guk [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) erabiltzea gomendatzen dugu.
 
-
-Pakete hau klonatu eta ingurunea instalatu. 
+Pakete hau klonatu eta ingurunea instalatu.
 
 ```sh
 $ npm install
@@ -24,6 +23,7 @@ Exekutatu testa:
 ```sh
 $ npm run e2e:chrome
 ```
+
 edo chrome ez baduzu:
 
 ```sh
@@ -31,3 +31,9 @@ $ npm run e2e:electron
 ```
 
 Fitxategia `CYPRESS_RESULT_FILE_PATH` aldagaian definitu duzun tokian izango duzu.
+
+## Kredituak
+
+![tokikom](./assets/tokikom.png)
+
+Produktu honen garapena [Tokikom](https://tokikom.eus)ek finantzatu du.
