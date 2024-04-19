@@ -44,7 +44,7 @@ Bi kasuetan deskargatutako fitxategia `CYPRESS_RESULT_FILE_PATH` aldagaian defin
 
 ## Lizentzia
 
-[MIT Lizentzia](./LICENSE.md)
+[MIT Lizentzia](./LICENSE)
 
 ## Kredituak
 
