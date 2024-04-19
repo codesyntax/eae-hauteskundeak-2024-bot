@@ -4,7 +4,7 @@
 
 Emaitzak XML formatuan emango ditu Eusko Jaurlaritzak hedabideentzat prestatutako intranet baten, baina fitxategi hori deskargatzeko intranetean login egin behar da.
 
-Logina egiteko, baina, ezin da HTTP Basic autentifikazioa erabili. Ezta JWT tokenak edo beste edozein autentifikazio modu estandar ere: intranetean login egin behar da eta orduan deskargatu daiteke fitxategia. Nabigatzailean jartzen diren Cookie batzuen bidez kontrolatzen da logina eginda dagoen ala ez.
+Logina egiteko, baina, ezin da [HTTP Basic autentifikazioa](https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication) erabili. Ezta [JWT tokenak](https://jwt.io) edo beste edozein autentifikazio modu estandar ere: intranetean login egin behar da eta orduan deskargatu daiteke fitxategia. Nabigatzailean jartzen diren Cookie batzuen bidez kontrolatzen da logina eginda dagoen ala ez.
 
 Beraz, nabigatzailearen erabilera simulatzen duen [Cypress](https://cypress.io) erabiliz, fitxategi hori eskatu eta formularioa betetzen duen robot hau prestatu dugu.
 
